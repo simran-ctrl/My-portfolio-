@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat:ital,wght@0,300;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background: #9028c1;
+}
+
+.about img{
+    height: auto;
+    width:420px;
+}
+.about-text{
+    width: 550px ;
+}
+.main{
+    display: flex;
+    width: 1130px;
+    max-width: 95%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+.about-text h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+span{
+    color: #f5f512;
+}
+.about-text p{
+    font-size: 18px;
+ letter-spacing: 1px;
+    line-height: 28px;
+    color: #fcfcfc;
+  
+    margin-bottom: 45px;
+}
+button{
+    background: #cad23b;
+     color: white;
+     text-decoration: none;
+     background-origin: 2px solid transparent;
+     font-weight: bold;
+     padding: 13px 30px;
+     transition: .4s;
+    
+     border-radius: 30px;
+    
+
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #bb1990;
+    color: #bb1990;
+    cursor: pointer;
+}

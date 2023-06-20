@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat:ital,wght@0,300;1,200;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+section{
+    padding: 40px 15%;
+}
+.contact{
+    background: #101010;
+    height: 100%;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+.conatct-img img{
+    max-width: 100%;
+    width: 720px;
+    height:auto;
+    border-radius:10px ;
+}
+.contact-form h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+span{
+    color: #f5f512;
+}
+.contact-form p{
+    font-size: 18px;
+    color: #c6c9d8df;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+.contact-form form{
+    position: relative;
+    /* width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+}
+.contact-form form input,
+form textarea{
+    width: 100%;
+    padding: 17px;
+    margin-bottom: 0.7rem;
+    border: none;
+    background: #191919;
+    outline: none;
+    border-radius: 10px ;
+    outline: none;
+    color: #fff;
+    font-size: 1.1rem;
+   
+
+}
+.contact-form textarea{
+    resize: none;
+    height:200px;
+
+}
+.contact-form form btn{
+    display: inline-block;
+    background: #f9004d;
+    letter-spacing: 1px;
+    color: white;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+    font-weight:600;
+   
+    border-radius: 10px ;
+  
+    border: 2px solid transparent;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition:  .20s ease;
+}
+.contact-form form .btn:hover{
+    border: 2px solid;
+    background: transparent;
+    transform: scale(1.1);
+
+}
+@media (max-width: 1570px){
+    section{
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    .contact-form h1{
+        font-size: 60px;
+    }
+    .contact-form p{
+        margin-bottom:3rem;
+    }
+}
